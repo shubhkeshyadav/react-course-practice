@@ -21,7 +21,6 @@ const HeaderCartButton = (props) => {
     }, 300);
 
     return () => {
-      console.log("clean");
       clearTimeout(interval);
     };
   }, [ctx.cartData.items]);

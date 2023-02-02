@@ -1,6 +1,7 @@
 import Input from "../../UI/Input";
 import classes from "./MealItemForm.module.css";
 import { useRef, useState } from "react";
+import { Notify } from "notiflix/build/notiflix-notify-aio";
 
 const MealItemForm = (props) => {
   const [isInputValid, setInputValid] = useState(true);
@@ -15,6 +16,7 @@ const MealItemForm = (props) => {
       setInputValid(false);
     } else {
       props.addToCart(enteredQty);
+      Notify.success("Item Added To Cart");
     }
   };
 

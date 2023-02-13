@@ -14,7 +14,8 @@ import Products from "./components/router/pages/Products";
 import ProductDetail from "./components/router/pages/ProductDetail";
 import MainHeader from "./components/router/components/MainHeader";
 import Root from "./components/custom_hook/Root";
-
+import ReduxRoot from "./components/redux/ReduxRoot";
+import RNewRoot from "./components/redux/New/RNewRoot";
 const App = () => {
   return (
     <GlobalState>
@@ -36,6 +37,8 @@ const App = () => {
           </Route>
           <Route path="*" element={<p>Error Here</p>} />
           <Route path="custom-hook" element={<Root />} />
+          <Route path="redux" element={<ReduxRoot />} />
+          <Route path="redux2" element={<RNewRoot />} />
         </Routes>
       </Router>
     </GlobalState>

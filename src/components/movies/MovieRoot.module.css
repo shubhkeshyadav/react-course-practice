@@ -18,17 +18,12 @@ button {
   border-radius: 20px;
 }
 
-button:focus {
+.movies button:focus {
   outline: none;
 }
 
-button:hover,
+.movies button:hover,
 button:active {
   background-color: #460897;
   border-color: #460897;
-}
-
-body {
-  margin: 0;
-  /* background-color: #272727; */
 }

@@ -6,6 +6,10 @@
   background-color: #333;
 }
 
+.navbar {
+  display: block;
+}
+
 .navbar li {
   float: left;
 }

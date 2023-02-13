@@ -27,6 +27,16 @@ const Navbar = () => {
         <li>
           <Link to="router">React Router</Link>
         </li>
+
+        <li>
+          <Link to="custom-hook">Hook</Link>
+        </li>
+        <li>
+          <Link to="redux">Redux</Link>
+        </li>
+        <li>
+          <Link to="redux2">Redux2</Link>
+        </li>
       </ul>
     </div>
   );

@@ -5,7 +5,9 @@ const Products = () => {
   return (
     <>
       <ul>
-        <Link to="car001" state={{age:20}}>Book</Link>
+        <Link to="car001" state={{ age: 20 }}>
+          Book
+        </Link>
         <li>
           <Link to="car001">Car</Link>
         </li>
